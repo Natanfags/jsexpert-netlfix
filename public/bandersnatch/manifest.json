@@ -1,0 +1,22 @@
+{
+    "hostTag": "$HOST",
+    "fileResolutionTag": "$RESOLUTION",
+    "localhost": "http://127.0.0.1:8081/",
+    "productionHost": "",
+    "codec": "",
+    "coffeeOne": {
+        "url": "$HOST/timeline/CoffeeOne/CoffeeOne-12.520000-$RESOLUTION.mp4",
+        "at": 10,
+        "options": ["ENCHER SEGUNDA", "FINALIZAR"],
+        "defaultOption": "FINALIZAR"
+    },
+    "coffeeTwo":{
+        "url": "$HOST/timeline/CoffeeTwo/CoffeeTwo-11.400000-$RESOLUTION.mp4",
+        "at": 8,
+        "options": ["ENCHER TERCEIRA", "FINALIZAR"],
+        "defaultOption": "FINALIZAR"
+    },
+    "coffeThree":{
+        "url": "$HOST/timeline/CoffeeThree/CoffeeThree-10.411000-$RESOLUTION.mp4"
+    }
+}
