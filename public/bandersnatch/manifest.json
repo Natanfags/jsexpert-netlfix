@@ -2,7 +2,7 @@
     "hostTag": "$HOST",
     "fileResolutionTag": "$RESOLUTION",
     "localHost": "http://127.0.0.1:8081",
-    "productionHost": "",
+    "productionHost": "https://d23adnjguzew9.cloudfront.net",
     "codec": "video/mp4; codecs=\"avc1.64001f,mp4a.40.2\"",
     "intro": {
         "url": "$HOST/timeline/CoffeeOne/CoffeeOne-12.520000-$RESOLUTION.mp4",
@@ -12,12 +12,15 @@
     },
     "segunda":{
         "url": "$HOST/timeline/CoffeeTwo/CoffeeTwo-11.400000-$RESOLUTION.mp4",
-        "at": 8,
+        "at": 10,
         "options": ["TERCEIRA", "FINALIZAR"],
         "defaultOption": "FINALIZAR"
     },
     "terceira":{
-        "url": "$HOST/timeline/CoffeeThree/CoffeeThree-10.411000-$RESOLUTION.mp4"
+        "url": "$HOST/timeline/CoffeeThree/CoffeeThree-10.411000-$RESOLUTION.mp4",
+        "at": 8,
+        "options": ["INTRO", "FINALIZAR"],
+        "defaultOptions": "FINALIZAR"
     },
     "finalizar": {
         "url": "$HOST/timeline/finalizar/finalizar-7.978333-$RESOLUTION.mp4"
